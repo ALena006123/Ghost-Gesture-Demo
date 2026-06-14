@@ -61,49 +61,60 @@ Canvas is used to render spirit particles, light effects, and dynamic visuals.
 Web Audio API 用于生成手势触发时的合成音效。
 The Web Audio API is used to generate synthesized sound effects triggered by gestures.
 
-## Run Locally｜本地运行
+## How to Run｜如何运行
 
-安装项目依赖。
-Install project dependencies.
+首先打开电脑上的 Terminal 终端。
+First, open the Terminal on your computer.
+
+进入项目所在的文件夹。
+Go into the project folder.
+
+```bash
+cd Desktop/Tokyo-Spirit-Gesture
+```
+
+如果你的项目文件夹名字不同，请把 `Tokyo-Spirit-Gesture` 换成你的实际文件夹名。
+If your project folder has a different name, replace `Tokyo-Spirit-Gesture` with your actual folder name.
+
+第一次运行项目时，需要先安装依赖。
+When running the project for the first time, install the dependencies first.
 
 ```bash
 npm install
 ```
 
-启动本地开发服务器。
-Start the local development server.
+安装完成后，启动本地开发服务器。
+After the installation is complete, start the local development server.
 
 ```bash
 npm run dev
 ```
 
-打开 Vite 在终端中显示的网址，通常是：
-Open the URL printed by Vite in the terminal, usually:
+Terminal 会显示一个本地网址，通常是：
+The Terminal will print a local URL, usually:
 
 ```bash
-http://localhost:5173
+http://localhost:5173/
 ```
 
-浏览器弹出提示时，允许摄像头访问权限。
-Allow webcam access when the browser asks for permission.
+复制这个网址，并在 Chrome 浏览器中打开。
+Copy this URL and open it in Chrome.
 
-MediaPipe 模型和 WASM 文件会从公共 CDN 加载，因此第一次打开项目时需要联网。
-The MediaPipe model and WASM files are loaded from public CDNs, so the first launch requires internet access.
+当浏览器询问是否允许使用摄像头时，点击允许。
+When the browser asks for webcam permission, click Allow.
 
-## Build｜打包构建
+之后你就可以通过电脑摄像头进行手势识别，并在网页中触发灵能视觉特效。
+Then you can use your computer webcam to detect hand gestures and trigger supernatural visual effects in the browser.
 
-构建生产版本。
-Build the production version.
+以后再次运行项目时，不需要重复安装依赖。
+The next time you run the project, you do not need to install dependencies again.
 
-```bash
-npm run build
-```
-
-本地预览打包后的版本。
-Preview the built version locally.
+只需要进入项目文件夹并启动开发服务器。
+You only need to enter the project folder and start the development server.
 
 ```bash
-npm run preview
+cd Desktop/Tokyo-Spirit-Gesture
+npm run dev
 ```
 
 ## Notes｜注意事项
