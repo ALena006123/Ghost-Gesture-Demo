@@ -68,13 +68,10 @@ First, open the Terminal on your computer.
 
 进入项目所在的文件夹。
 Go into the project folder.
-
+eg.
 ```bash
-cd Desktop/Tokyo-Spirit-Gesture
+cd /Users/alena/My_Coding_Project/GestureDemo
 ```
-
-如果你的项目文件夹名字不同，请把 `Tokyo-Spirit-Gesture` 换成你的实际文件夹名。
-If your project folder has a different name, replace `Tokyo-Spirit-Gesture` with your actual folder name.
 
 第一次运行项目时，需要先安装依赖。
 When running the project for the first time, install the dependencies first.
